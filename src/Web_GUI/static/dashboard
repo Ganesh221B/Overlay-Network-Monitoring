@@ -1,0 +1,126 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: #ffffff;
+	color: #410502;
+}
+a {
+	font-size:12px;
+	color:#000000;
+	text-decoration:underline;
+}
+a:hover {
+	font-size:12px;
+	color:#000000;
+	text-decoration:none;
+}
+logo {
+	font-size:60px;
+	color:#e02f16;
+	font-style:italic;
+}
+logo span {
+	font-size:60px;
+	color:#410502;
+	font-style:italic;
+}
+.mainMenu {
+	background:url(images/menuBackground.jpg) no-repeat left top;
+	height:37px;
+	width:800px;
+	margin:30px 0 0 0;
+}
+.mainMenu ul {
+	padding:6px 0 0 0;
+}
+.mainMenu li {
+	list-style:none;
+	display:inline;
+	margin:0 10px;
+}
+.mainMenu li a {
+	font-size:18px;
+	color:#ff695d;
+	text-decoration:none;
+	padding:0 10px;
+}
+.mainMenu li a:hover {
+	font-size:18px;
+	color:#ffffff;
+	background:#410502;
+	text-decoration:none;
+	padding:0 10px;
+}
+.mainMenu #active a{
+	font-size:18px;
+	color:#ffffff;
+	background:#410502;
+	text-decoration:none;
+	padding:0 10px;
+}
+.headerPic {
+	background:url(images/fin.png) no-repeat left top;
+	height:345px;
+	width:800px;
+}
+
+#container {
+	width: 800px;  
+	margin: 0 auto; 
+}
+#header {
+}
+#mainContent {
+}
+.p1Top {
+	height:20px;
+	background:url(images/p1Top.jpg) no-repeat left top;
+}
+.p1Bottom {
+	height:20px;
+	background:url(images/p1Bottom.jpg) no-repeat left top;
+}
+.p1Body {
+	background:url(images/p1Body.jpg) repeat-y left top;
+}
+.box {
+	color:#fff;
+	width:200px;
+	float:left;
+	padding:0 20px 0 40px;
+}
+.box img {
+	border:0;
+	padding:20px 0 0 0;
+	float:right;
+}
+.clearer {
+	clear:both;
+}
+.p2Top {
+	height:20px;
+	background:url(images/p2Top.jpg) no-repeat left top;
+}
+.p2Bottom {
+	height:20px;
+	background:url(images/p2Bottom.jpg) no-repeat left top;
+}
+.p2Body {
+	background:url(images/p2Body.jpg) repeat-y left top;
+	padding:20px 40px;
+}
+.p3Body {
+	background:url(images/pFooter.jpg) repeat-y left top;
+}
+#footer {
+	text-align:center;
+	padding:20px 0;
+	color:#927f7f;
+}
+#footer a {
+	color:#ce2f25;
+}

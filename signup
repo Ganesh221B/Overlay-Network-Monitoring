@@ -1,0 +1,17 @@
+from flask import flask
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(Signup)
+db = SQLAlchemy()
+def create_app():
+    app= Flask(signup)
+    db.init_app(app)
+    return app 
+
+
+class signup(db.Model) :
+Name = db.Column(db.String(80), unique=True)
+    username = db.Column(db.String(80), unique=True)
+    Emailaddress = db.Column(db.String(90))
+    password = db.Column(db.String(60))
+    

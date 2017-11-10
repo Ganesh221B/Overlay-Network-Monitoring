@@ -1,0 +1,58 @@
+<div bgcolor="white">
+<div>
+<h1 style="text-align:center;color:darkblue">
+SMART NET
+</h1>
+<img width="150" height="150">
+<div>
+<h2 style="color:skyblue;text-decoration:underline">
+ SERVER Login Form
+</h2>
+<h3 style="color:00008b">
+Please enter your credentials to access the system.
+
+<form method="post" target="_blank" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page.\nAre you sure?&quot;);} catch (e) {return false;}">
+<label>UserName </label>
+<br>
+<input name="username" type="text">
+<br>
+<br>
+<label>Password </label>
+<br>
+<input name="password" type="password">
+<br>
+<br>
+<input name="submit" type="submit" value=" Login "> 
+<span></span>
+<br>
+<br>
+<a href="http://1.html" target="_blank"></a>
+<a href="http://signup.html" target="_blank">Sign up to create a new useraccount</a>
+</form>
+</h3></div>
+<div>
+<h2 style="color:skyblue;text-decoration:underline">
+ CLIENT Login Form
+</h2>
+<h3 style="color:00008b">
+Please enter your credentials to access the system.
+
+<form method="post" target="_blank" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page.\nAre you sure?&quot;);} catch (e) {return false;}">
+<label>UserName </label>
+<br>
+<input name="username" type="text">
+<br>
+<br>
+<label>Password </label>
+<br>
+<input name="password" type="password">
+<br>
+<br>
+<input name="submit" type="submit" value=" Login "> 
+<span></span> 
+</form>
+</h3></div>
+</div>
+<img style="position:absolute;TOP:179px;RIGHT:101px;WIDTH:730px;HEIGHT:533px">
+</div>
+</body></html>

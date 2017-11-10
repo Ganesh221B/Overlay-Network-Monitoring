@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>free css template 170</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+  
+  <!-- begin #header -->
+    <div id="header">
+    	<div class="logo">Dash<span>Board</span></div>
+        <div class="mainMenu">
+      
+  	<ul>
+            	<li id="active"><a href="">Home</a></li>
+                <li><a href="">Accountsettings</a></li>
+            
+    <li><a href="http://193.11.185.187:3000/dashboard/db/stats">Statistics</a></li>
+                <li><a href="">Logout</a></li>
+           
+ </ul>
+        </div>
+        <div class="headerPic">
+        	
+        </div>
+    </div>
+   
+ <!-- end #header -->
+    <!-- begin #mainContent -->
+    <div id="mainContent">
+    	
+<div class="p1Top"></div>
+        <div class="p1Body">
+        	<div class="box">
+            	<p>
+        
+        	<b>Account settings is used to change your details such as username, email, password.. <br/>
+  
+              </p>
+        
+    </div>
+            <div class="box">
+            	<p>
+                	
+
+<b>Statistics is where you can view your network operations.<br/>
+
+
+</div>
+      
+      <div class="box">
+       
+     	<p>
+                	
+
+
+<b>Log out takes you to the welcome page where you need to login to proceed.<br/>
+     
+           </p>
+           
+ </div>
+        
+    <div class="clearer"></div>
+        </div>
+ 
+       <div class="p1Bottom">
+</div>
+ 
+       <br />
+        
+
+   
+</body>
+</html>
+
+
+   

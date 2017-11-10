@@ -1,0 +1,2 @@
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:akhi@localhost/test'
+db = SQLAlchemy(app)

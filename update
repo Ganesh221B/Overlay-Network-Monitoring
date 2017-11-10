@@ -1,0 +1,22 @@
+@app.route('/update', methods=['GET','post'])        
+@login_required
+def account():
+          
+    if request.method == 'GET':
+        return render_template("account.html")
+    
+    user = User(request.form['username'] , request.form['new username'] , request.form['email'] , request.form['new email'], request.form['password'] , request.form['new password']) 
+
+    db.execute('SELECT * FROM users')
+    
+    
+     db.execute('UPDATE users SET value = new username WHERE value = username')
+    db.execute('UPDATE users SET value = new email WHERE value = email')
+    db.execute('UPDATE users SET value = new password WHERE value = password')
+    db.session.commit()
+
+    db.execute('SELECT * FROM users')
+    
+
+    flash('Changes saved')
+    return redirect(url_for('dash'))

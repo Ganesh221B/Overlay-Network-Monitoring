@@ -1,0 +1,56 @@
+<head>
+  <meta charset="utf-8">
+  
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Login Form</title>
+ 
+ <link rel="stylesheet" href="/static/css/account.css">
+  <!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"><
+/script><![endif]-->
+</head>
+<body>
+  
+{% block body %}
+  <form action="" method=post class="form-horizontal">
+    <h2>Account Settings </h2>
+    <div class="control-group">
+        <div class="controls">
+          <input type="text" id="username" name="username" class="input-xlarge"
+            placeholder="Enter Username" value="{{ request.form.username }}"
+            required>
+        </div>
+    </div>
+    
+       <div class="control-group">
+        <div class="controls">
+          <input type="password" id="password" name="password" class="input-xlarge"
+            placeholder="Enter Password" value="{{ request.form.password }}"
+            required>
+        </div>
+    </div>
+
+
+        <div class="controls">
+          <input type="text" id="newusername" name="newusername" class="input-xlarge"
+            placeholder="Enter New Username" value="{{ request.form.newusername }}"
+            required>
+        </div>
+    </div>
+    
+     <div class="control-group">
+        <div class="controls">
+          <input type="newpassword" id="newpassword" name="newpassword" class="input-xlarge"
+            placeholder="Enter New Password" value="{{ request.form.newpassword }}"
+            required>
+        </div>
+    </div>
+
+   
+    <div class="control-group">
+        <div class="controls">
+          <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+    </div>
+  </form>
+{% endblock %}
